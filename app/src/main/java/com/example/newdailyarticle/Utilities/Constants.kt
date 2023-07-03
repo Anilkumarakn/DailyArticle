@@ -1,7 +1,7 @@
 package com.example.dailynews.utils
 
 const val POST_PER_PAGE = 7 // More posts more loading time
-const val WEBSITE_URL = "https://www.mtv.com/news"
+const val WEBSITE_URL = "https://thewaltdisneycompany.com/"
 const val BASE_URL = "$WEBSITE_URL/wp-json/wp/v2"
 const val POSTS_URL = "$BASE_URL/posts?_embed&per_page=$POST_PER_PAGE&"
 const val CATEGORIES_URL = "$BASE_URL/categories/"
